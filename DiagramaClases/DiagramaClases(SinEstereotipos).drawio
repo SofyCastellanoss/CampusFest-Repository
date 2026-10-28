@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Diagrama_Clases_Sin_Estereotipos" id="0GGxGGhevNKh0hf2xEEJ">
+    <mxGraphModel dx="1842" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LZ3BFTHbKNeBYkUOk0wI-8" edge="1" parent="1" source="LZ3BFTHbKNeBYkUOk0wI-3" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;fontSize=11;fontStyle=0;align=center;verticalAlign=bottom;" target="LZ3BFTHbKNeBYkUOk0wI-4" value="posee (1 ... 0..*)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ3BFTHbKNeBYkUOk0wI-10" edge="1" parent="1" source="LZ3BFTHbKNeBYkUOk0wI-2" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;fontSize=11;fontStyle=0;align=center;verticalAlign=bottom;" target="LZ3BFTHbKNeBYkUOk0wI-5" value="registra entrada (1 ... 0..*)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ3BFTHbKNeBYkUOk0wI-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=18;" value="Diagrama de Clases Entidad Sin Estereotipos (Con Atributos y Métodos) - CampusFest" vertex="1">
+          <mxGeometry height="30" width="720" x="230" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ3BFTHbKNeBYkUOk0wI-2" parent="1" style="swipeable=0;html=1;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;align=left;verticalAlign=top;spacingLeft=8;spacingRight=8;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;" value="Estudiante&#xa;--&#xa;- idEstudiante: String&#xa;- nombre: String&#xa;- email: String&#xa;- codigoEstudiantil: String&#xa;--&#xa;+ getIdEstudiante(): String&#xa;+ getNombre(): String&#xa;+ getEmail(): String&#xa;+ consultarHistorialReservas(): List&amp;lt;Reserva&amp;gt;" vertex="1">
+          <mxGeometry height="165" width="240" x="110" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ3BFTHbKNeBYkUOk0wI-3" parent="1" style="swipeable=0;html=1;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;align=left;verticalAlign=top;spacingLeft=8;spacingRight=8;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;" value="Evento&#xa;--&#xa;- idEvento: String&#xa;- nombre: String&#xa;- aforoMaximo: int&#xa;- cuposBloqueados: int&#xa;- fechaHoraUltimaModificacion: DateTime&#xa;--&#xa;+ getIdEvento(): String&#xa;+ getAforoMaximo(): int&#xa;+ getCuposBloqueados(): int&#xa;+ actualizarUltimaModificacion(): void&#xa;+ calcularCuposDisponibles(): int" vertex="1">
+          <mxGeometry height="180" width="260" x="530" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ3BFTHbKNeBYkUOk0wI-4" parent="1" style="swipeable=0;html=1;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;align=left;verticalAlign=top;spacingLeft=8;spacingRight=8;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;" value="Reserva&#xa;--&#xa;- idReserva: String&#xa;- fechaHoraCreacion: DateTime&#xa;- estado: EstadoReserva&#xa;- codigoQR: String&#xa;--&#xa;+ getIdReserva(): String&#xa;+ getEstado(): EstadoReserva&#xa;+ confirmarReserva(): boolean&#xa;+ cancelarReserva(): void&#xa;+ esVencida(minutosLimit: int): boolean" vertex="1">
+          <mxGeometry height="180" width="240" x="110" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ3BFTHbKNeBYkUOk0wI-5" parent="1" style="swipeable=0;html=1;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;align=left;verticalAlign=top;spacingLeft=8;spacingRight=8;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=12;" value="Ingreso&#xa;--&#xa;- idIngreso: String&#xa;- fechaHoraIngreso: DateTime&#xa;- codigoQRValidado: String&#xa;- esValido: boolean&#xa;--&#xa;+ getIdIngreso(): String&#xa;+ getFechaHoraIngreso(): DateTime&#xa;+ registrarIngreso(): boolean&#xa;+ validarQR(): boolean" vertex="1">
+          <mxGeometry height="170" width="260" x="530" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ3BFTHbKNeBYkUOk0wI-6" parent="1" style="swipeable=0;html=1;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;align=center;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontFamily=Helvetica;fontSize=11;" value="EstadoReserva&#xa;--&#xa;PENDIENTE&#xa;CONFIRMADA&#xa;CANCELADA&#xa;VENCIDA&#xa;BLOQUEADA" vertex="1">
+          <mxGeometry height="110" width="160" x="150" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ3BFTHbKNeBYkUOk0wI-7" edge="1" parent="1" source="LZ3BFTHbKNeBYkUOk0wI-2" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;fontSize=11;fontStyle=0;align=center;verticalAlign=bottom;" target="LZ3BFTHbKNeBYkUOk0wI-4" value="realiza (1 ... 0..*)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ3BFTHbKNeBYkUOk0wI-9" edge="1" parent="1" source="LZ3BFTHbKNeBYkUOk0wI-3" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;fontSize=11;fontStyle=0;align=center;verticalAlign=bottom;" target="LZ3BFTHbKNeBYkUOk0wI-5" value="registra (1 ... 0..*)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ3BFTHbKNeBYkUOk0wI-11" edge="1" parent="1" source="LZ3BFTHbKNeBYkUOk0wI-4" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;fontSize=11;fontStyle=0;align=center;verticalAlign=bottom;" target="LZ3BFTHbKNeBYkUOk0wI-5" value="valida (0..1 ... 0..1)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ3BFTHbKNeBYkUOk0wI-12" edge="1" parent="1" source="LZ3BFTHbKNeBYkUOk0wI-4" style="endArrow=open;dashed=1;html=1;fontSize=11;" target="LZ3BFTHbKNeBYkUOk0wI-6" value="usa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
