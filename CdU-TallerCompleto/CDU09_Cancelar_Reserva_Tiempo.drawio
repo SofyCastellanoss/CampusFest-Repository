@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="tU_TunqJ0uYSDrgsfst9">
+    <mxGraphModel dx="1271" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uUCgF6tBA2LQEHGrA4AG-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="CDU 09 - Cancelar reserva (Expiración de 10 minutos)" vertex="1">
+          <mxGeometry height="40" width="320" x="260" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uUCgF6tBA2LQEHGrA4AG-2" parent="1" style="shape=swimlane;whiteSpace=wrap;html=1;startSize=23;fillColor=#f8f9fa;fontColor=#212529;strokeColor=#bdc3c7;fontStyle=1;fontSize=14;" value="CampusFest (Organización)" vertex="1">
+          <mxGeometry height="180" width="480" x="230" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="uUCgF6tBA2LQEHGrA4AG-3" parent="uUCgF6tBA2LQEHGrA4AG-2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontStyle=1;" value="Cancelar reserva" vertex="1">
+          <mxGeometry height="50" width="160" x="40" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="uUCgF6tBA2LQEHGrA4AG-4" parent="uUCgF6tBA2LQEHGrA4AG-2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="Consultar eventos" vertex="1">
+          <mxGeometry height="50" width="160" x="280" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="uUCgF6tBA2LQEHGrA4AG-5" edge="1" parent="uUCgF6tBA2LQEHGrA4AG-2" source="uUCgF6tBA2LQEHGrA4AG-3" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uUCgF6tBA2LQEHGrA4AG-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uUCgF6tBA2LQEHGrA4AG-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="10 mins de&#xa;una reserva" vertex="1">
+          <mxGeometry height="90" width="45" x="70" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="uUCgF6tBA2LQEHGrA4AG-7" edge="1" parent="1" source="uUCgF6tBA2LQEHGrA4AG-6" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uUCgF6tBA2LQEHGrA4AG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
