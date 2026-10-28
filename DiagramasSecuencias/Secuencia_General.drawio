@@ -1,0 +1,127 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Secuencia_General" id="MfSLAaSAyiVe9wxY6ri0">
+    <mxGraphModel dx="1271" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QugfGzPqT_wm1286b4Jz-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=18;" value="Diagrama de Secuencia General (Análisis Orientado a Objetos - CampusFest)" vertex="1">
+          <mxGeometry height="30" width="650" x="240" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QugfGzPqT_wm1286b4Jz-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Estudiante" vertex="1">
+          <mxGeometry height="90" width="45" x="50" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QugfGzPqT_wm1286b4Jz-3" parent="1" style="html=1;points=[];perimeter=orthogonalPerimeter;dashed=1;dashPattern=8 8;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="600" width="1" x="72" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="QugfGzPqT_wm1286b4Jz-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="Organizador" vertex="1">
+          <mxGeometry height="90" width="45" x="990" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QugfGzPqT_wm1286b4Jz-5" parent="1" style="html=1;points=[];perimeter=orthogonalPerimeter;dashed=1;dashPattern=8 8;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="600" width="1" x="1012" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="QugfGzPqT_wm1286b4Jz-6" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" value=":Interfaz CampusFest" vertex="1">
+          <mxGeometry height="60" width="60" x="190" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="QugfGzPqT_wm1286b4Jz-7" parent="1" style="html=1;points=[];perimeter=orthogonalPerimeter;dashed=1;dashPattern=8 8;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="600" width="1" x="219" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="QugfGzPqT_wm1286b4Jz-8" parent="1" style="shape=umlControl;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value=":Cálculo Cupos" vertex="1">
+          <mxGeometry height="60" width="60" x="350" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="QugfGzPqT_wm1286b4Jz-9" parent="1" style="html=1;points=[];perimeter=orthogonalPerimeter;dashed=1;dashPattern=8 8;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="600" width="1" x="379" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="QugfGzPqT_wm1286b4Jz-10" parent="1" style="shape=umlControl;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value=":Gestionar reservas" vertex="1">
+          <mxGeometry height="60" width="60" x="510" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="QugfGzPqT_wm1286b4Jz-11" parent="1" style="html=1;points=[];perimeter=orthogonalPerimeter;dashed=1;dashPattern=8 8;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="600" width="1" x="539" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="QugfGzPqT_wm1286b4Jz-12" parent="1" style="shape=umlControl;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value=":Gestionar asistencias" vertex="1">
+          <mxGeometry height="60" width="60" x="670" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="QugfGzPqT_wm1286b4Jz-13" parent="1" style="html=1;points=[];perimeter=orthogonalPerimeter;dashed=1;dashPattern=8 8;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="600" width="1" x="699" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="QugfGzPqT_wm1286b4Jz-14" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value=":Evento" vertex="1">
+          <mxGeometry height="60" width="60" x="830" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="QugfGzPqT_wm1286b4Jz-15" parent="1" style="html=1;points=[];perimeter=orthogonalPerimeter;dashed=1;dashPattern=8 8;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="600" width="1" x="859" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="QugfGzPqT_wm1286b4Jz-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=orthogonalEdgeStyle;fontSize=10;fontStyle=1;" value="1: Consultar cupos de evento">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="73" y="310" as="sourcePoint" />
+            <mxPoint x="219" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QugfGzPqT_wm1286b4Jz-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=orthogonalEdgeStyle;fontSize=10;fontStyle=1;" value="2: Transfiere petición">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="219" y="340" as="sourcePoint" />
+            <mxPoint x="379" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QugfGzPqT_wm1286b4Jz-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=orthogonalEdgeStyle;fontSize=10;fontStyle=1;" value="3: Consulta aforo y reservas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="379" y="370" as="sourcePoint" />
+            <mxPoint x="859" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QugfGzPqT_wm1286b4Jz-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;edgeStyle=orthogonalEdgeStyle;fontSize=10;fontStyle=1;" value="4: Retorna disponibilidad de cupos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="379" y="420" as="sourcePoint" />
+            <mxPoint x="219" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QugfGzPqT_wm1286b4Jz-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;edgeStyle=orthogonalEdgeStyle;fontSize=10;fontStyle=1;" value="5: Muestra cupos disponibles al estudiante">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="219" y="450" as="sourcePoint" />
+            <mxPoint x="73" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QugfGzPqT_wm1286b4Jz-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=orthogonalEdgeStyle;fontSize=10;fontStyle=1;" value="6: Solicitar reporte de reservas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1012" y="520" as="sourcePoint" />
+            <mxPoint x="219" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QugfGzPqT_wm1286b4Jz-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=orthogonalEdgeStyle;fontSize=10;fontStyle=1;" value="7: Request generación de reporte de reservas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="219" y="550" as="sourcePoint" />
+            <mxPoint x="539" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QugfGzPqT_wm1286b4Jz-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=orthogonalEdgeStyle;fontSize=10;fontStyle=1;" value="8: Solicitar datos de reservas y evento">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="539" y="580" as="sourcePoint" />
+            <mxPoint x="859" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QugfGzPqT_wm1286b4Jz-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;edgeStyle=orthogonalEdgeStyle;fontSize=10;fontStyle=1;" value="9: Return datos de reservas procesados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="539" y="630" as="sourcePoint" />
+            <mxPoint x="219" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QugfGzPqT_wm1286b4Jz-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=orthogonalEdgeStyle;fontSize=10;fontStyle=1;" value="10: Solicitar reporte de asistencia">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1012" y="700" as="sourcePoint" />
+            <mxPoint x="219" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QugfGzPqT_wm1286b4Jz-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=orthogonalEdgeStyle;fontSize=10;fontStyle=1;" value="11: Request generación de reporte de asistencias">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="219" y="730" as="sourcePoint" />
+            <mxPoint x="699" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QugfGzPqT_wm1286b4Jz-27" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;edgeStyle=orthogonalEdgeStyle;fontSize=10;fontStyle=1;" value="12: Return reporte de asistencia a organizador">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="219" y="800" as="sourcePoint" />
+            <mxPoint x="1012" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
