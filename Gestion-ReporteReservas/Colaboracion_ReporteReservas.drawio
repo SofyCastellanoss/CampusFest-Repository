@@ -1,0 +1,54 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Colaboracion_Reservas_ConMensajes" id="ERoroTpFCTbMd8sNlRpK">
+    <mxGraphModel dx="1271" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OfBx3Eur3Yg7JPjosEqP-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=18;" value="Diagrama de Colaboración (Con Mensajes) - Gestión / Reporte de Reservas" vertex="1">
+          <mxGeometry height="30" width="650" x="250" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="OfBx3Eur3Yg7JPjosEqP-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" value=":Organizador" vertex="1">
+          <mxGeometry height="90" width="45" x="80" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="OfBx3Eur3Yg7JPjosEqP-3" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" value=":PantallaEventos" vertex="1">
+          <mxGeometry height="60" width="60" x="320" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="OfBx3Eur3Yg7JPjosEqP-4" parent="1" style="shape=umlControl;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value=":GestionReserva" vertex="1">
+          <mxGeometry height="60" width="60" x="620" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="OfBx3Eur3Yg7JPjosEqP-5" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value=":Evento" vertex="1">
+          <mxGeometry height="60" width="60" x="920" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="OfBx3Eur3Yg7JPjosEqP-6" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value=":Reserva" vertex="1">
+          <mxGeometry height="60" width="60" x="920" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="OfBx3Eur3Yg7JPjosEqP-7" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value=":ReporteReservas" vertex="1">
+          <mxGeometry height="60" width="60" x="620" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="OfBx3Eur3Yg7JPjosEqP-8" edge="1" parent="1" source="OfBx3Eur3Yg7JPjosEqP-2" style="endArrow=none;html=1;strokeWidth=2;fontSize=11;fontStyle=1;" target="OfBx3Eur3Yg7JPjosEqP-3" value="1: Selecciona evento →&#xa;11.a: &quot;OK&quot; ↵&#xa;11.b: Reporte ↵">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OfBx3Eur3Yg7JPjosEqP-9" edge="1" parent="1" source="OfBx3Eur3Yg7JPjosEqP-3" style="endArrow=none;html=1;strokeWidth=2;fontSize=11;fontStyle=1;" target="OfBx3Eur3Yg7JPjosEqP-4" value="2: Solicitar lista de reservas de un evento →&#xa;10: &quot;reporte generado&quot; ↵">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OfBx3Eur3Yg7JPjosEqP-10" edge="1" parent="1" source="OfBx3Eur3Yg7JPjosEqP-4" style="endArrow=none;html=1;strokeWidth=2;fontSize=11;fontStyle=1;" target="OfBx3Eur3Yg7JPjosEqP-5" value="3: Solicitar información del evento →&#xa;4: Devuelve información del evento ↵">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OfBx3Eur3Yg7JPjosEqP-11" edge="1" parent="1" source="OfBx3Eur3Yg7JPjosEqP-4" style="endArrow=none;html=1;strokeWidth=2;fontSize=11;fontStyle=1;" target="OfBx3Eur3Yg7JPjosEqP-6" value="5: Solicitar información de reserva →&#xa;6: Devuelve información de reserva ↵">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OfBx3Eur3Yg7JPjosEqP-12" edge="1" parent="1" source="OfBx3Eur3Yg7JPjosEqP-4" style="endArrow=none;html=1;strokeWidth=2;fontSize=11;fontStyle=1;" target="OfBx3Eur3Yg7JPjosEqP-7" value="8: Generar reporte de reservas →&#xa;9: &quot;reporte generado&quot; ↵">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OfBx3Eur3Yg7JPjosEqP-13" edge="1" parent="1" source="OfBx3Eur3Yg7JPjosEqP-4" style="endArrow=block;html=1;strokeWidth=1.5;fontSize=11;fontStyle=1;curved=1;" target="OfBx3Eur3Yg7JPjosEqP-4" value="7: Calcular listado de reservas">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="315" />
+              <mxPoint x="670" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
