@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Colaboracion_ConsultarCupos_SinMensajes" id="nFOFQDfEmFm8dy73cCbM">
+    <mxGraphModel dx="1271" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0FaTQnhmmuDD-t7IOnYM-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" value="Diagrama de Colaboración (Sin Mensajes) - Consultar Cupos" vertex="1">
+          <mxGeometry height="30" width="500" x="170" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0FaTQnhmmuDD-t7IOnYM-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Estudiante" vertex="1">
+          <mxGeometry height="90" width="45" x="80" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="0FaTQnhmmuDD-t7IOnYM-3" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" value="PantallaEvento" vertex="1">
+          <mxGeometry height="60" width="60" x="240" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="0FaTQnhmmuDD-t7IOnYM-4" parent="1" style="shape=umlControl;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="CalculoCupos" vertex="1">
+          <mxGeometry height="60" width="60" x="420" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="0FaTQnhmmuDD-t7IOnYM-5" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="Evento" vertex="1">
+          <mxGeometry height="60" width="60" x="600" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="0FaTQnhmmuDD-t7IOnYM-6" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="Reserva" vertex="1">
+          <mxGeometry height="60" width="60" x="600" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="0FaTQnhmmuDD-t7IOnYM-7" edge="1" parent="1" source="0FaTQnhmmuDD-t7IOnYM-2" style="endArrow=none;html=1;strokeWidth=2;" target="0FaTQnhmmuDD-t7IOnYM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0FaTQnhmmuDD-t7IOnYM-8" edge="1" parent="1" source="0FaTQnhmmuDD-t7IOnYM-3" style="endArrow=none;html=1;strokeWidth=2;" target="0FaTQnhmmuDD-t7IOnYM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0FaTQnhmmuDD-t7IOnYM-9" edge="1" parent="1" source="0FaTQnhmmuDD-t7IOnYM-4" style="endArrow=none;html=1;strokeWidth=2;" target="0FaTQnhmmuDD-t7IOnYM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0FaTQnhmmuDD-t7IOnYM-10" edge="1" parent="1" source="0FaTQnhmmuDD-t7IOnYM-4" style="endArrow=none;html=1;strokeWidth=2;" target="0FaTQnhmmuDD-t7IOnYM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
