@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Colaboracion_General_ConMensajes" id="jpkuVA6oI18uDioVIiHz">
+    <mxGraphModel dx="1271" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Q5YLs-5AUhkx8xRyLD67-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=18;" value="Diagrama de Colaboración General (Con Mensajes Extendidos)" vertex="1">
+          <mxGeometry height="30" width="550" x="250" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5YLs-5AUhkx8xRyLD67-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value=":Estudiante" vertex="1">
+          <mxGeometry height="90" width="45" x="150" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5YLs-5AUhkx8xRyLD67-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" value=":Organizador" vertex="1">
+          <mxGeometry height="90" width="45" x="780" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5YLs-5AUhkx8xRyLD67-5" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" value=":Interfaz CampusFest" vertex="1">
+          <mxGeometry height="60" width="60" x="465" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5YLs-5AUhkx8xRyLD67-6" parent="1" style="shape=umlControl;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value=":Gestionar reservas" vertex="1">
+          <mxGeometry height="60" width="60" x="210" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5YLs-5AUhkx8xRyLD67-7" parent="1" style="shape=umlControl;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value=":Cálculo Cupos" vertex="1">
+          <mxGeometry height="60" width="60" x="465" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5YLs-5AUhkx8xRyLD67-8" parent="1" style="shape=umlControl;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value=":Gestionar asistencias" vertex="1">
+          <mxGeometry height="60" width="60" x="720" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5YLs-5AUhkx8xRyLD67-9" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value=":Reserva" vertex="1">
+          <mxGeometry height="60" width="60" x="80" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5YLs-5AUhkx8xRyLD67-10" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value=":Evento" vertex="1">
+          <mxGeometry height="60" width="60" x="465" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5YLs-5AUhkx8xRyLD67-11" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value=":Ingreso" vertex="1">
+          <mxGeometry height="60" width="60" x="850" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5YLs-5AUhkx8xRyLD67-12" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value=":Estudiante" vertex="1">
+          <mxGeometry height="60" width="60" x="465" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5YLs-5AUhkx8xRyLD67-13" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value=":Reporte reservas" vertex="1">
+          <mxGeometry height="60" width="60" x="210" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5YLs-5AUhkx8xRyLD67-14" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value=":Reporte Asistencia" vertex="1">
+          <mxGeometry height="60" width="60" x="720" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5YLs-5AUhkx8xRyLD67-15" edge="1" parent="1" source="Q5YLs-5AUhkx8xRyLD67-3" style="endArrow=none;html=1;strokeWidth=2;fontSize=10;fontStyle=1;" target="Q5YLs-5AUhkx8xRyLD67-5" value="1.1: Consultar cupos / Reservar →&#xa;1.9: Muestra respuesta ↵">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5YLs-5AUhkx8xRyLD67-16" edge="1" parent="1" source="Q5YLs-5AUhkx8xRyLD67-4" style="endArrow=none;html=1;strokeWidth=2;fontSize=10;fontStyle=1;" target="Q5YLs-5AUhkx8xRyLD67-5" value="2.1: Solicitar reporte de reservas/asistencia →&#xa;2.13: &quot;OK&quot; / Retorna reporte ↵">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5YLs-5AUhkx8xRyLD67-17" edge="1" parent="1" source="Q5YLs-5AUhkx8xRyLD67-5" style="endArrow=none;html=1;strokeWidth=2;fontSize=10;fontStyle=1;" target="Q5YLs-5AUhkx8xRyLD67-6" value="2.2: Solicitar lista reservas →&#xa;2.10: Reporte generado ↵">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5YLs-5AUhkx8xRyLD67-18" edge="1" parent="1" source="Q5YLs-5AUhkx8xRyLD67-5" style="endArrow=none;html=1;strokeWidth=2;fontSize=10;fontStyle=1;" target="Q5YLs-5AUhkx8xRyLD67-7" value="1.2: Transfiere consulta →&#xa;1.8: Transfiere resultados ↵">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5YLs-5AUhkx8xRyLD67-19" edge="1" parent="1" source="Q5YLs-5AUhkx8xRyLD67-5" style="endArrow=none;html=1;strokeWidth=2;fontSize=10;fontStyle=1;" target="Q5YLs-5AUhkx8xRyLD67-8" value="2.2: Solicitar reporte asistencia →&#xa;2.12: Reporte generado ↵">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5YLs-5AUhkx8xRyLD67-20" edge="1" parent="1" source="Q5YLs-5AUhkx8xRyLD67-6" style="endArrow=none;html=1;strokeWidth=2;fontSize=10;fontStyle=1;" target="Q5YLs-5AUhkx8xRyLD67-9" value="2.5: Consultar reservas →&#xa;2.6: Devuelve reservas ↵">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5YLs-5AUhkx8xRyLD67-21" edge="1" parent="1" source="Q5YLs-5AUhkx8xRyLD67-6" style="endArrow=none;html=1;strokeWidth=2;fontSize=10;fontStyle=1;" target="Q5YLs-5AUhkx8xRyLD67-10" value="2.3: Consultar evento →&#xa;2.4: Devuelve evento ↵">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5YLs-5AUhkx8xRyLD67-22" edge="1" parent="1" source="Q5YLs-5AUhkx8xRyLD67-6" style="endArrow=none;html=1;strokeWidth=2;fontSize=10;fontStyle=1;" target="Q5YLs-5AUhkx8xRyLD67-13" value="2.8: Generar reporte reservas →&#xa;2.9: Reporte generado ↵">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5YLs-5AUhkx8xRyLD67-23" edge="1" parent="1" source="Q5YLs-5AUhkx8xRyLD67-7" style="endArrow=none;html=1;strokeWidth=2;fontSize=10;fontStyle=1;" target="Q5YLs-5AUhkx8xRyLD67-9" value="1.6: Consultar reservas →&#xa;1.7: Devuelve reservas ↵">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5YLs-5AUhkx8xRyLD67-24" edge="1" parent="1" source="Q5YLs-5AUhkx8xRyLD67-7" style="endArrow=none;html=1;strokeWidth=2;fontSize=10;fontStyle=1;" target="Q5YLs-5AUhkx8xRyLD67-10" value="1.4: Consultar aforo →&#xa;1.5: Devuelve aforo ↵">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5YLs-5AUhkx8xRyLD67-25" edge="1" parent="1" source="Q5YLs-5AUhkx8xRyLD67-8" style="endArrow=none;html=1;strokeWidth=2;fontSize=10;fontStyle=1;" target="Q5YLs-5AUhkx8xRyLD67-10" value="2.3: Consultar evento →&#xa;2.4: Retorna evento ↵">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5YLs-5AUhkx8xRyLD67-26" edge="1" parent="1" source="Q5YLs-5AUhkx8xRyLD67-8" style="endArrow=none;html=1;strokeWidth=2;fontSize=10;fontStyle=1;" target="Q5YLs-5AUhkx8xRyLD67-11" value="2.5: Consultar ingresos →&#xa;2.6: Retorna ingresos ↵">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5YLs-5AUhkx8xRyLD67-27" edge="1" parent="1" source="Q5YLs-5AUhkx8xRyLD67-8" style="endArrow=none;html=1;strokeWidth=2;fontSize=10;fontStyle=1;" target="Q5YLs-5AUhkx8xRyLD67-12" value="2.7: Consultar datos estudiante →&#xa;2.8: Retorna estudiante ↵">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5YLs-5AUhkx8xRyLD67-28" edge="1" parent="1" source="Q5YLs-5AUhkx8xRyLD67-8" style="endArrow=none;html=1;strokeWidth=2;fontSize=10;fontStyle=1;" target="Q5YLs-5AUhkx8xRyLD67-14" value="2.10: Generar reporte asistencia →&#xa;2.11: Reporte generado ↵">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
