@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Diagrama_Caso_de_Uso_Reporte_Reservas" id="XkSOVgYez6CpN-s6789x">
+    <mxGraphModel dx="1271" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wPI87YhrxUjTsEL96zx8-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=18;" value="Diagrama de Caso de Uso - Generar Reporte de Reservas" vertex="1">
+          <mxGeometry height="30" width="550" x="150" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wPI87YhrxUjTsEL96zx8-2" parent="1" style="shape=swimlane;whiteSpace=wrap;html=1;startSize=25;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;fontStyle=1;fontSize=14;" value="Sistema CampusFest" vertex="1">
+          <mxGeometry height="280" width="460" x="240" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="wPI87YhrxUjTsEL96zx8-3" parent="wPI87YhrxUjTsEL96zx8-2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=1;fontSize=12;" value="Generar reporte&#xa;de reservas" vertex="1">
+          <mxGeometry height="60" width="160" x="50" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wPI87YhrxUjTsEL96zx8-4" parent="wPI87YhrxUjTsEL96zx8-2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;" value="Buscar / Consultar&#xa;evento" vertex="1">
+          <mxGeometry height="60" width="160" x="260" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wPI87YhrxUjTsEL96zx8-5" edge="1" parent="wPI87YhrxUjTsEL96zx8-2" source="wPI87YhrxUjTsEL96zx8-3" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="wPI87YhrxUjTsEL96zx8-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wPI87YhrxUjTsEL96zx8-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="Organizador" vertex="1">
+          <mxGeometry height="90" width="45" x="80" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="wPI87YhrxUjTsEL96zx8-7" edge="1" parent="1" source="wPI87YhrxUjTsEL96zx8-6" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="wPI87YhrxUjTsEL96zx8-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
